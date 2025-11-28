@@ -12,11 +12,11 @@ func main() {
 	{
 		var x int
 		var y float32
-		var z string
+		var z string	
 
 		fmt.Println("x:", x) // x: 0
 		fmt.Println("y:", y)  // y: 0
-		fmt.Printf("z:|%s|\n", z)	 // z:|| （空文字列）
+		fmt.Printf("z:|%s|\n", z)	 // <- ここは「書式付き出力」。z(文字列)を%sで埋め込む。ゼロ値（空文字列）は何も表示されず| |になる。
 	}
 
 	fmt.Println("===== 2.1.2 リテラル =====")
